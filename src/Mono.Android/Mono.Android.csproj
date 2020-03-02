@@ -361,11 +361,13 @@
       <Project>{D14A1B5C-2060-4930-92BE-F7190256C735}</Project>
       <Name>generator</Name>
       <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
+      <SkipGetTargetFrameworkProperties>true</SkipGetTargetFrameworkProperties>
     </ProjectReference>
     <ProjectReference Include="..\..\external\Java.Interop\tools\jcw-gen\jcw-gen.csproj">
       <Project>{52C7D9B6-E8C8-47D0-9471-652D278D7D77}</Project>
       <Name>jcw-gen</Name>
       <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
+      <SkipGetTargetFrameworkProperties>true</SkipGetTargetFrameworkProperties>
     </ProjectReference>
     <ProjectReference Include="..\..\src\java-runtime\java-runtime.csproj">
       <Project>{1D4FC8F1-0DA4-4F38-BE68-11AEBA9A0EA4}</Project>
